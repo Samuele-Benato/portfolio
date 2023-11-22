@@ -80,6 +80,7 @@ export default {
   position: relative;
 }
 
+
 .logo-container{
   display: flex;
   justify-content: center;
