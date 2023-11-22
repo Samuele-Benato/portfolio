@@ -4,55 +4,55 @@ let images = [];
 const projects = [
   {
     name: "Campo Minato",
-    image: "/assets/projects/campoMinato.JPG",
+    image: "/assets/projects/campoMinato.jpg",
     subtitle: "Un semplice gioco il cui obbiettivo è fare più passi possibili prima di fare BOOM!",
     url: "https://github.com/Samuele-Benato/js-campominato-dom",
   },
   {
     name: "FizzBuzz",
-    image: "/assets/projects/fizzBuzz.JPG",
+    image: "/assets/projects/fizzBuzz.jpg",
     subtitle: "Pratica con Javascript, obbiettivo è sostituire i multipli di 3 con Fizz, i multipli di 5 con Buzz e i multipli in comune con FizzBuzz",
     url: "https://github.com/Samuele-Benato/js-fizzbuzz",
   },
   {
     name: "Boolzapp",
-    image: "/assets/projects/boolzapp.JPG",
+    image: "/assets/projects/boolzapp.jpg",
     subtitle: "Riproduzione della consolidata app con inserimento di filtri di ricerca, risposta automatica al messaggio e memorizzazione della chat",
     url: "https://github.com/Samuele-Benato/vue-boolzapp",
   },
   {
     name: "Boolfix",
-    image: "/assets/projects/boolfix.JPG",
+    image: "/assets/projects/boolfix.jpg",
     subtitle: "Riproduzione della famosa app con inserimento di chiamata esterna api",
     url: "https://github.com/Samuele-Benato/vite-boolflix",
   },
   {
     name: "Layout Concessionario",
-    image: "/assets/projects/carLayout.JPG",
+    image: "/assets/projects/carLayout.jpg",
     subtitle: "Riproduzione di un possibile layout mono pagina di un concessionario",
     url: "https://github.com/Samuele-Benato/htmlcss-responsive-layout",
   },
   {
     name: "DC COMICS",
-    image: "/assets/projects/dcComics.JPG",
+    image: "/assets/projects/dcComics.jpg",
     subtitle: "Esercitazione di grafica riproducendo il noto sito",
     url: "https://github.com/Samuele-Benato/vite-comics",
   },
   {
     name: "Spotify",
-    image: "/assets/projects/spotify.JPG",
+    image: "/assets/projects/spotify.jpg",
     subtitle: "Esercitazione di grafica con effetti hover (visualizzazione web)",
     url: "https://github.com/Samuele-Benato/html-css-spotifyweb",
   },
   {
     name: "Back Office",
-    image: "/assets/projects/backOffice.JPG",
+    image: "/assets/projects/backOffice.jpg",
     subtitle: "Struttura in PHP utilizzando Laravel 9.x la quale comprende tutte le viste dei controller, soft delete e restore",
     url: "https://github.com/Samuele-Benato/laravel-api",
   },
   {
     name: "Front Office",
-    image: "/assets/projects/frontOffice.JPG",
+    image: "/assets/projects/frontOffice.jpg",
     subtitle: "Struttura in Vue.js collegata al back office per la visualizzazione dell'utente, comprende filtri di ricerca per categoria",
     url: "https://github.com/Samuele-Benato/vite-boolfolio",
   },
@@ -108,7 +108,7 @@ export default {
 <template>
   <main>
     <h1 class="background">Projects</h1>
-      <!-- <img src="public/assets/projects/logoSB.PNG" class="spinner rotate" /> -->
+      <!-- <img src="public/assets/projects/logoSB.png" class="spinner rotate" /> -->
     <NavBar @hoverIn="$emit('hoverIn')" @hoverOut="$emit('hoverOut')" />
     <div class="project-grid">
       <a
