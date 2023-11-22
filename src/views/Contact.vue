@@ -52,7 +52,7 @@ export default {
 <template>
   <main>
     <h1 class="background">Contact</h1>
-    <!-- <img src="public/assets/projects/logoSB." class="spinner rotate" /> -->
+    <!-- <img src="public/assets/projects/logoSB.png" class="spinner rotate" /> -->
     <NavBar @hoverIn="$emit('hoverIn')" @hoverOut="$emit('hoverOut')" />
     <div class="contact-me">
       <div class="results-cover"></div>
