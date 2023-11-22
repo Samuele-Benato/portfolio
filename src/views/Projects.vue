@@ -108,7 +108,7 @@ export default {
 <template>
   <main>
     <h1 class="background">Projects</h1>
-      <!-- <img src="public/assets/projects/logoSB.PNG" class="spinner rotate" /> -->
+      <!-- <img src="public/assets/projects/logoSB.png" class="spinner rotate" /> -->
     <NavBar @hoverIn="$emit('hoverIn')" @hoverOut="$emit('hoverOut')" />
     <div class="project-grid">
       <a
