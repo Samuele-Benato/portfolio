@@ -11,4 +11,5 @@ export default defineConfig({
       external: ["src/styles/theme.css"],
     },
   },
+  base: "./",
 });
