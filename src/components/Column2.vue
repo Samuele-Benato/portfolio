@@ -63,7 +63,7 @@ export default {
     </svg>
     <div class="logo-container">
       <img
-        src="/assets/projects/logoSB.png"
+        src="https://samuele-benato.github.io/portfolio/assets/projects/logoSB.png"
         class="sb-logo"
       />
     </div>
