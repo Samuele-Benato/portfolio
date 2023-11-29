@@ -6,7 +6,7 @@
         class="logo-link"
         @mouseenter="$emit('hoverIn')"
         @mouseleave="$emit('hoverOut')"
-        ><img src="/assets/projects/logoSB.png" class="logo"
+        ><img src="/assets/projects/logoSB-new.png" class="logo"
       /></router-link>
     </div>
     <div class="nav-links">
